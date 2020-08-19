@@ -69,8 +69,10 @@ const templateBodyContent = `
   <title>{{.Name}}</title>
   <link href="/assets/gfm/gfm.css" media="all" rel="stylesheet" type="text/css" />
 </head>
-<body class="markdown-body">
-{{.Body}}</body>
+<div>
+<article class="markdown-body">
+{{.Body}}</article>
+</div>
 </html>
 `
 
